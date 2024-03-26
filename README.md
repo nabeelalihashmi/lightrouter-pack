@@ -164,15 +164,12 @@ class HomeController {
 ```
 
 ## Responses
-## NOTE: Reponses are removed from LightRouter packages and they are part of LightHttp
-
-To make it modular and independant, you can plug LightHttp IResponse or use own.
 
 ```
 $router->response_type_interface_name = gettype('IconicCodes\LightHttp\Responses\IResponse);
 ```
 
-You can make your own reponse handler too. It must have 'handle' method.
+You can make your own response handler too. It must have 'handle' method.
 
 <s>
 Controllers/callbacks can return a Response implementing `IResponse` interface having `handle` method. By default LightRouter has these Responses
