@@ -1,0 +1,21 @@
+{
+    "name": "nabeelalihashmi/lightrouter-pack",
+    "description": "Fast and light PHP Router",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://iconiccodes.com",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "IconicCodes\\LightRouter\\": "router/",
+            "IconicCodes\\LightHttp\\": "http/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nabeel Ali",
+            "email": "mail2nabeelali@gmail.com",
+            "homepage": "https://iconiccodes.com"
+        }
+    ]
+}
